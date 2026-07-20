@@ -244,6 +244,14 @@ header nav ul {
   color: var(--fg);
 }
 
+.site-footer a svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
 @media (max-width: 480px) {
   header nav ul {
     gap: var(--space-2);
